@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "firebasefronted",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^11.0.2",
+    "firebase-admin": "^13.0.1",
+    "firebase-functions": "^6.1.1",
     "localforage": "^1.10.0",
     "match-sorter": "^8.0.0",
     "react": "^18.3.1",
@@ -33,5 +36,9 @@
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
     "vite": "^6.0.1"
-  }
+  },
+  "description": "This boilerplate is designed to help you quickly start new React projects and speed up the development process. It includes a pre-configured setup for essential tools and libraries, so you can focus on building your application.",
+  "main": "eslint.config.js",
+  "author": "",
+  "license": "ISC"
 }
